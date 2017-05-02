@@ -1,12 +1,38 @@
-.res-iframe-expando {
+.res-media-independent {
+  width: 100%;
+}
 
-  iframe[src*=youtu] {
-		width: 1000px;
-		height: 562px;
-  }
+.res-media-movable {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
 
+.res-media-movable iframe[src*=youtu] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 80px) !important;
+  width: calc(100% - 200px)!important;
+  height: invalid!important;
 }
 
 .side {
-	min-width: 100px;
+  width: 0!important;
+  transition: 0.2s all ease-in-out;
+  overflow: hidden;
+  margin: 0 20px 0 5px!important;
+  border: 8px solid #373737;
+
+  &:hover {
+    width: 300px!important;
+    padding: 3px;
+    border: 0;
+  }
+}
+
+body>.content {
+  margin-right: 40px;
 }
