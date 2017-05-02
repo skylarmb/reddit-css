@@ -1,0 +1,8 @@
+.res-iframe-expando iframe[src*=youtu] {
+  width: 1000px;
+  height: 562px; }
+
+.side {
+  min-width: 100px; }
+
+/*# sourceMappingURL=main.css.map */
