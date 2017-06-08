@@ -1,10 +1,14 @@
+.res-expando-box {
+  margin-left: -160px!important;
+}
+
 .res-media-independent {
   width: 100%;
 }
 
 .res-media-movable {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
+  padding-bottom: 52.25%; /* 16:9 */
   padding-top: 25px;
   height: 0;
 }
@@ -14,8 +18,8 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: calc(100% - 47px) !important;
-  width: calc(100% - 200px)!important;
+  height: 100% !important;
+  width: calc(100% - 40px)!important;
   height: invalid!important;
 }
 
