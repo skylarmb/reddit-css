@@ -8,8 +8,7 @@
 
 .res-media-movable {
   position: relative;
-  padding-bottom: 48%;
-  padding-top: 25px;
+  padding-bottom: 56.25%; // 16:9
   height: 0;
 }
 
@@ -19,7 +18,7 @@
   left: 0;
   width: 100%;
   height: 100% !important;
-  width: calc(100% - 40px)!important;
+  width: 100vw!important;
   height: invalid!important;
 }
 

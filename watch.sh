@@ -1,1 +1,1 @@
-sass --watch --sourcemap=none main.scss:main.css
+sass --watch main.scss:main.css
